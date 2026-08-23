@@ -2,7 +2,7 @@
 
 > Paste a git diff, get three Conventional Commits messages to choose from.
 
-**[Live demo](https://su-commitmsg.vercel.app)**
+**[Live demo](https://commitmsg-mlx.vercel.app)**
 
 Writing a good commit message means re-reading your own diff and deciding what the change actually was. CommitMsg does that read for you: paste the output of `git diff --staged`, and a Groq-hosted Llama 3.3 70B model returns three commit messages, each a different valid reading of the same changes — one might frame it as a `feat`, another as a `refactor`. The model is constrained to return strict JSON, so every option comes back with a type, a lowercase imperative subject under 72 characters, and an optional body.
 
@@ -31,4 +31,4 @@ Requires `GROQ_API_KEY` in `.env.local`.
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
